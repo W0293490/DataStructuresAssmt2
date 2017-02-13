@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2973451E4FFDDF0097FA7B /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB2973431E4FFDDF0097FA7B /* stack.cpp */; };
+		AB2973481E4FFE350097FA7B /* stacknode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB2973461E4FFE350097FA7B /* stacknode.cpp */; };
 		AB67E0711E4D59CC00D36DE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB67E0701E4D59CC00D36DE5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB2973431E4FFDDF0097FA7B /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stack.cpp; path = "Test Feb 9 17/stack.cpp"; sourceTree = "<group>"; };
+		AB2973441E4FFDDF0097FA7B /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = stack.hpp; path = "Test Feb 9 17/stack.hpp"; sourceTree = "<group>"; };
+		AB2973461E4FFE350097FA7B /* stacknode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stacknode.cpp; sourceTree = "<group>"; };
+		AB2973471E4FFE350097FA7B /* stacknode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stacknode.hpp; sourceTree = "<group>"; };
+		AB29734A1E4FFFA50097FA7B /* stdafx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdafx.hpp; sourceTree = "<group>"; };
+		AB29734C1E5000EA0097FA7B /* targetver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = targetver.h; sourceTree = "<group>"; };
 		AB67E06D1E4D59CC00D36DE5 /* Test Feb 9 17 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Test Feb 9 17"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB67E0701E4D59CC00D36DE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +49,8 @@
 		AB67E0641E4D59CC00D36DE5 = {
 			isa = PBXGroup;
 			children = (
+				AB2973431E4FFDDF0097FA7B /* stack.cpp */,
+				AB2973441E4FFDDF0097FA7B /* stack.hpp */,
 				AB67E06F1E4D59CC00D36DE5 /* Test Feb 9 17 */,
 				AB67E06E1E4D59CC00D36DE5 /* Products */,
 			);
@@ -58,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				AB67E0701E4D59CC00D36DE5 /* main.cpp */,
+				AB2973461E4FFE350097FA7B /* stacknode.cpp */,
+				AB2973471E4FFE350097FA7B /* stacknode.hpp */,
+				AB29734A1E4FFFA50097FA7B /* stdafx.hpp */,
+				AB29734C1E5000EA0097FA7B /* targetver.h */,
 			);
 			path = "Test Feb 9 17";
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2973481E4FFE350097FA7B /* stacknode.cpp in Sources */,
+				AB2973451E4FFDDF0097FA7B /* stack.cpp in Sources */,
 				AB67E0711E4D59CC00D36DE5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Test Feb 9 17";
 			};
 			name = Debug;
 		};
@@ -218,7 +234,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Test Feb 9 17";
 			};
 			name = Release;
 		};
@@ -241,6 +257,7 @@
 				AB67E0761E4D59CC00D36DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
